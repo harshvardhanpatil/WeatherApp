@@ -58,7 +58,26 @@ body {
   text-align: center;
   color: #000;
 }
-
+.card-container1{
+  height: 90vh;
+  background: url("img/b3.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+}
+.card-container2{
+  height: 90vh;
+  background: url("img/b4.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+}
 
 .card-title{
   font-size: 50px;
