@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router , Link , Route , Redirect , Switch , withRouter } from 'react-router-dom'
 import Home from "./components/Home"
 import CityWeather from './components/CityWeather'
-import LocationWeather from './components/LocationWeather'
+import LocationWeather from './components/WeatherLocatiop';
 import Dashboard from './components/Dashboard'
 
 const API_KEY = "30d7b5ed541660ae2d9b2d85ce89a704";
