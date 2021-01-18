@@ -4,22 +4,43 @@
 
 body {
   font-family: "Open Sans", serif;
+  background: linear-gradient(to right, #363534, #000000);
 }
 
 .wrapper {
   background: linear-gradient(to right, #363534, #000000);
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .main {
-  height: 90vh;
+  
   background: #f16051;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
   width: 80%;
   margin: 0 auto;
+}
+
+
+
+.dashboard-t{
+  text-align: center;
+  align-items: center;
+}
+.dashboard-title{
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  font-family: 'Roboto Slab', serif;
+
+}
+.dashboard-title-main{
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  font-family: 'Roboto Slab', serif;
+
 }
 
 .title-container {
@@ -171,4 +192,32 @@ button:active {
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 200;
+}
+
+
+
+.weather-key-card {
+  color: #f16051;
+  border-bottom: solid 2px rgba(255,255,255,0.06);
+  padding: 20px 0 20px 0;
+  font-weight: 400;
+}
+
+.weather-key-card:last-child {
+  border: 0;
+}
+
+.weather-value-card {
+  color: #fff;
+  font-weight: 200;
+}
+
+
+.cards{
+  background-color: #335270;
+  margin : 10px;
+}
+
+.scrollable{
+  overflow-y: scroll;
 }
