@@ -49,8 +49,14 @@ const Dashboard=({props})=>{
           
     },[lat,lon]);
 
+    function print()
+    {
+        window.print();
+    }
+
     return(
         <div> 
+            <div id="click" className="float-button" onClick={print}><div className="my-float">Print</div></div> 
             <div className="dashboard-t">
                 <h4 className="dashboard-title-main">DASHBOARD</h4>
             </div>
@@ -67,6 +73,7 @@ const Dashboard=({props})=>{
 
             {result&& result.one.list.map((d)=>{
             return <Card name={d.name} condition={d.weather[0].description} humidity={d.main.humidity} icon={d.weather[0].icon}></Card> })}
+            
                 {/* <Card></Card>
                 <Card></Card>
                 <Card></Card>
