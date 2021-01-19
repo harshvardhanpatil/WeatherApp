@@ -221,3 +221,24 @@ button:active {
 .scrollable{
   overflow-y: scroll;
 }
+
+.float-button {
+  background-color: #fff;
+  position: fixed;
+  width:60px;
+	height:60px;
+	bottom:40px;
+  right:40px;
+  background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  transition: all 0.2s ease-in 0s;
+  z-index: 9999;
+  cursor: pointer;
+  }
+
+  .my-float{
+    margin-top:22px;
+  }
